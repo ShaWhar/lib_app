@@ -6,7 +6,7 @@ import '../bloc/home_page_bloc.dart';
 import '../bloc/search_bloc.dart';
 import '../bloc/shelf_bloc.dart';
 
-// Extension for common navigation-related operations
+
 extension Navigation on BuildContext {
   // Method to retrieve an instance of EBooksBloc from the widget tree
   EBooksBloc getEbooksYourBooksPageBlocInstance() => read<EBooksBloc>();
